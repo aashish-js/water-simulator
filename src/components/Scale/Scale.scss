@@ -1,0 +1,34 @@
+.Scale {
+  width: 51vw;
+  padding: 24px 0;
+}
+.Scale__value {
+  display: flex;
+  width: 23vw;
+  p {
+    &:first-child {
+      flex-grow: 1;
+    }
+  }
+}
+.Scale__title {
+  padding-bottom: 19px;
+}
+.Scale__line {
+  position: relative;
+  width: 23vw;
+  &:hover {
+    cursor: pointer;
+  }
+  border: solid 1px black;
+}
+.scale__rangeContainer {
+  display: flex;
+}
+.Scale__currentInfo {
+  border-radius: 4px;
+  background: #eab3b3;
+  padding: 0.5em 2em;
+  text-align: center;
+  margin-left: 2vw;
+}

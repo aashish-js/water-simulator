@@ -1,0 +1,7 @@
+.Button {
+  outline: none;
+  padding: 10px 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}

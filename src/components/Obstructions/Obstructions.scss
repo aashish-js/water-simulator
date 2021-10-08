@@ -1,0 +1,10 @@
+.Obstructions--block {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  background-color: black;
+  margin-bottom: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}
